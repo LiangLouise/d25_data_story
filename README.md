@@ -60,9 +60,6 @@ plt.show()
 ![png](output_2_0.png)
     
 
-
-<iframe src="report_imgs/network.html" title="W3Schools Free Online Web Tutorials"></iframe>
-
 > Word cloud of title data among all submission in anime subreddit from `text_submissions` dataset
 
 From the word cloud we can see that, people discussed a lot topics in this subreddit, including but not limited to plots, characters they like, anime recommendations. It would be difficult for us to determine if they are talking about a specific anime and if they are talking about the animes currently on air or not by simply applying `LatentDirichletAllocation` from scikit-learn. As it's very likely that the model will fail to extract the name of the anime properly.
