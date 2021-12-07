@@ -1,9 +1,8 @@
 # What's The Hotest Anime in Each Season?
 
-
 ## Abstract
 
-No matter any kind of many screenplays, the most common topics among those watcher or fans are probably:
+No matter for what kind of many screenplays, the most common topics among those watcher or fans are probably:
 
 - Which *xxx* is the best?
 - Which *xxx* do you recommend?
@@ -11,7 +10,7 @@ No matter any kind of many screenplays, the most common topics among those watch
 
 *xxx* here can be substituted by any type of screenplays, i.e. movies, TV series, TV show and etc. This rule applies to one type of screenplays as well - [TV anime][3].
 
-In this post, I would present with the help the data from [anime community][1] in Reddit and [anime record data][2] to explore what's most welcomed TV animes in different period of time and what are the potential features make them become popular among viewers.
+In this post, I would present my analysis on what's most welcomed TV animes in different period of time and what are the potential features make them become popular among viewers, with the help the data from [anime community][1] in Reddit and [anime record data][2].
 
 ## Background
 
@@ -22,17 +21,15 @@ TV series in US usually have 23-24 episode as a "full season" and many of them r
 - Summer: July - September
 - Fall: October - December
 
-Each season, there would be around 40 - 60 animes get released and each year, there would be more than 350 TV anime produced. 
+Therefore, in the project I would divide the animes in each year into four groups by natural seasons as the release time for the most episodes of an anime would fall into one of the four season, meaning if two animes belong to the same season, their release time of each episode would be very close
 
-Besides, the genres of the animes could very rich, covering a lot of topics and multiple themes.
+Besides, the genres of the animes could very rich, covering a lot of topics and multiple themes, so we would be able to analyze if there is any potential connections between genres and the popularity.
 
-![](report_imgs/catgory.png)
+![](/imgs/d25_report_imgs//catgory.png)
 
 [1]: https://www.reddit.com/r/anime/ "Reddit Anime"
 [2]: https://github.com/manami-project/anime-offline-database	"anime-offline-database"
 [3]: https://en.wikipedia.org/wiki/Anime "Anime Wiki Page"
-
-<script src="https://cdn.plot.ly/plotly-2.6.3.min.js"></script>
 
 
 ## Finding the Hotest Anime in Different Period
